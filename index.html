@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sushi Master | Modern Japanese Kaiseki & Sushi Artistry</title>
+  <!-- Google Fonts + Smooth Base -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="scripts/script.js" defer></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container nav-bar">
+      <div class="logo-area">
+        <div class="logo">Sushi <span>Master</span></div>
+        <div class="location-marker">
+          <i class="fas fa-map-marker-alt"></i> <span data-key="locationText">Ginza, Tokyo</span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="top-actions">
+          <button id="languageSwitcherTop" class="lang-toggle"><i class="fas fa-globe"></i> <span
+              id="langLabel">EN/IT</span></button>
+          <button id="currencySwitcherTop" class="currency-toggle-nav"><i class="fas fa-exchange-alt"></i> <span
+              id="currencySymbolTop">¥</span>/€</button>
+        </div>
+        <button id="mobileMenuToggle" class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active" data-key="navHome">Home</a></li>
+        <li><a href="#menu" data-key="navMenu">Menu</a></li>
+        <li><a href="#tasting" data-key="navOmakase">Omakase</a></li>
+        <li><a href="#booking" data-key="navReserve">Reserve</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1><span data-key="heroTitle1">Art of Edomae</span> <br><span style="color:#c49a6c;"
+            data-key="heroTitle2">Sushi Master</span></h1>
+        <p data-key="heroDesc">Modern Japanese kaiseki & sushi craftsmanship. Omakase experiences by our head chef,
+          rooted in tradition, lifted by innovation.</p>
+        <div class="btn-group">
+          <a href="#menu" class="btn btn-primary" data-key="exploreMenuBtn"><i class="fas fa-utensils"></i> Explore
+            Menu</a>
+          <a href="#tasting" class="btn btn-outline" data-key="chefTastingBtn"><i class="fas fa-calendar-alt"></i>
+            Chef's Tasting</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <h2 class="section-title" data-key="menuTitle">Our Culinary Journey</h2>
+        <div class="divider"></div>
+        <p class="section-sub" data-key="menuSub">Chef's signatures & timeless classics</p>
+        <div class="menu-header-actions">
+          <button id="currencySwitcherNearProducts" class="currency-toggle-near">
+            <i class="fas fa-exchange-alt"></i> <span id="currencySymbolNear">¥</span> / €
+          </button>
+        </div>
+        <div class="menu-filters" id="filterContainer">
+          <button class="filter-btn active" data-category="all" data-key="filterAll">All</button>
+          <button class="filter-btn" data-category="chef" data-key="filterChef">Chef's Selection</button>
+          <button class="filter-btn" data-category="classic" data-key="filterClassic">Classic Favorites</button>
+          <button class="filter-btn" data-category="nigiri" data-key="filterNigiri">Nigiri</button>
+          <button class="filter-btn" data-category="maki" data-key="filterMaki">Maki & Rolls</button>
+          <button class="filter-btn" data-category="appetizer" data-key="filterApp">Appetizers</button>
+          <button class="filter-btn" data-category="dessert" data-key="filterDessert">Dessert</button>
+        </div>
+        <div class="menu-grid" id="menuGrid">
+          <div class="loading-spinner"><i class="fas fa-spinner fa-pulse"></i> Loading exquisite dishes...</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" id="tasting">
+      <div class="tasting-section">
+        <div class="tasting-wrapper">
+          <div class="tasting-info">
+            <h3><i class="fas fa-crown" style="color:#c49a6c;"></i> <span data-key="omakaseTitle">Chef's Omakase "Sushi
+                Master"</span></h3>
+            <p data-key="omakaseDesc">An exclusive 12-course tasting menu curated daily by head chef Kenji Tanaka.
+              Featuring rare seafood, A5 Wagyu, truffle-infused tamago, and seasonal treasures from Toyosu market.</p>
+            <ul class="tasting-features">
+              <li><i class="fas fa-check-circle"></i> <span data-key="feature1">12 seasonal courses + sake pairing
+                  option</span></li>
+              <li><i class="fas fa-clock"></i> <span data-key="feature2">Private counter seating (2 hours)</span></li>
+              <li><i class="fas fa-star"></i> <span data-key="feature3">Edomae-style aged nigiri & hand rolls</span>
+              </li>
+              <li><i class="fas fa-gem"></i> <span data-key="feature4">Complimentary matcha petit four</span></li>
+            </ul>
+            <div><span class="order-badge" style="font-size: 0.9rem;" id="tastingPriceLabel">¥22,000 per guest</span>
+            </div>
+          </div>
+          <div class="booking-card" id="booking">
+            <h4 data-key="reserveTitle">Reserve Omakase</h4>
+            <form id="tastingBookingForm">
+              <div class="form-group"><input type="text" id="guestName" placeholder="Full name"
+                  data-placeholder-en="Full name" data-placeholder-it="Nome completo" required></div>
+              <div class="form-group"><input type="email" id="guestEmail" placeholder="Email address"
+                  data-placeholder-en="Email address" data-placeholder-it="Indirizzo email" required></div>
+              <div class="form-group"><input type="tel" id="guestPhone" placeholder="Phone number"
+                  data-placeholder-en="Phone number" data-placeholder-it="Numero di telefono"></div>
+              <div class="form-group"><input type="date" id="reserveDate" required></div>
+              <div class="form-group"><select id="reserveTime" required>
+                  <option value="">Select time</option>
+                  <option>17:30</option>
+                  <option>18:00</option>
+                  <option>19:30</option>
+                  <option>20:00</option>
+                </select></div>
+              <div class="form-group"><select id="guestCount" required>
+                  <option value="">Number of guests</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select></div>
+              <button type="submit" class="book-btn" data-key="secureBtn"><i class="fas fa-calendar-check"></i> Secure
+                reservation</button>
+              <div id="bookingMessage" class="message-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p><i class="fas fa-location-dot"></i> <span data-key="address">42 Ginza Central, Tokyo</span> | <i
+            class="fas fa-phone-alt"></i> +81 3-1234-5678</p>
+        <p style="margin-top: 12px;">© 2025 Sushi Master — <span data-key="footerTag">Modern Japanese Omakase & Sushi
+            Bar</span></p>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

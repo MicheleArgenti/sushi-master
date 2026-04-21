@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "nameEn": "Chutoro Nigiri",
+    "nameIt": "Chutoro Nigiri",
+    "category": "chef",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 1200,
+    "descEn": "Medium fatty tuna, aged 5 days, akazu shari",
+    "descIt": "Tonno medio grasso, invecchiato 5 giorni, akazu shari",
+    "img": "images/chutoro_nigiri.png",
+    "type": "chef"
+  },
+  {
+    "id": 2,
+    "nameEn": "Otoro Aburi",
+    "nameIt": "Otoro Aburi",
+    "category": "chef",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 1800,
+    "descEn": "Seared fatty tuna, wasabi, soy caviar",
+    "descIt": "Tonno grasso scottato, wasabi, caviale di soia",
+    "img": "images/otoro_aburi.png",
+    "type": "chef"
+  },
+  {
+    "id": 3,
+    "nameEn": "Uni Ikura Don",
+    "nameIt": "Uni Ikura Don",
+    "category": "chef",
+    "subcats": [
+      "appetizer"
+    ],
+    "priceJPY": 2800,
+    "descEn": "Hokkaido sea urchin, salmon roe, gold leaf",
+    "descIt": "Riccio di mare Hokkaido, uova di salmone, foglia d'oro",
+    "img": "images/uni_ikura_don.png",
+    "type": "chef"
+  },
+  {
+    "id": 4,
+    "nameEn": "A5 Wagyu Sushi",
+    "nameIt": "A5 Wagyu Sushi",
+    "category": "chef",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 3200,
+    "descEn": "Seared Kagoshima Wagyu, truffle soy, crispy shallot",
+    "descIt": "Wagyu di Kagoshima scottato, soia al tartufo, scalogno croccante",
+    "img": "images/a5_wagyu_sushi.png",
+    "type": "chef"
+  },
+  {
+    "id": 5,
+    "nameEn": "Chef's Signature Maki",
+    "nameIt": "Maki Signature Chef",
+    "category": "chef",
+    "subcats": [
+      "maki"
+    ],
+    "priceJPY": 2100,
+    "descEn": "Lobster tempura, avocado, spicy mayo, eel sauce",
+    "descIt": "Tempura di aragosta, avocado, mayo piccante, salsa unagi",
+    "img": "images/signature_maki.png",
+    "type": "chef"
+  },
+  {
+    "id": 6,
+    "nameEn": "Kinmedai Nigiri",
+    "nameIt": "Kinmedai Nigiri",
+    "category": "chef",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 1500,
+    "descEn": "Golden eye snapper, yuzu zest, red vinegar rice",
+    "descIt": "Pesce occhio d'oro, scorza di yuzu, riso all'aceto rosso",
+    "img": "images/kinmedai_nigiri.png",
+    "type": "chef"
+  },
+  {
+    "id": 7,
+    "nameEn": "Salmon Avocado Roll",
+    "nameIt": "Roll Salmone e Avocado",
+    "category": "classic",
+    "subcats": [
+      "maki"
+    ],
+    "priceJPY": 980,
+    "descEn": "Fresh salmon, avocado, cucumber, sesame",
+    "descIt": "Salmone fresco, avocado, cetriolo, sesamo",
+    "img": "images/salmon_avocado_roll.png",
+    "type": "classic"
+  },
+  {
+    "id": 8,
+    "nameEn": "Ebi Tempura Roll",
+    "nameIt": "Roll Tempura di Gamberi",
+    "category": "classic",
+    "subcats": [
+      "maki"
+    ],
+    "priceJPY": 1150,
+    "descEn": "Crispy shrimp tempura, spicy tuna, lettuce",
+    "descIt": "Tempura di gamberi croccante, tonno piccante, lattuga",
+    "img": "images/ebi_tempura_roll.png",
+    "type": "classic"
+  },
+  {
+    "id": 9,
+    "nameEn": "Shoyu Ramen",
+    "nameIt": "Ramen Shoyu",
+    "category": "classic",
+    "subcats": [
+      "appetizer"
+    ],
+    "priceJPY": 1250,
+    "descEn": "Soy broth, chashu, bamboo, nori, soft egg",
+    "descIt": "Brodo di soia, chashu, bambù, nori, uovo morbido",
+    "img": "images/shoyu_ramen.png",
+    "type": "classic"
+  },
+  {
+    "id": 10,
+    "nameEn": "Gyoza (6pcs)",
+    "nameIt": "Gyoza (6pz)",
+    "category": "classic",
+    "subcats": [
+      "appetizer"
+    ],
+    "priceJPY": 780,
+    "descEn": "Pork & cabbage dumplings, tare dipping sauce",
+    "descIt": "Ravioli di maiale e cavolo, salsa tare",
+    "img": "images/gyoza.png",
+    "type": "classic"
+  },
+  {
+    "id": 11,
+    "nameEn": "Matcha Tiramisu",
+    "nameIt": "Tiramisù Matcha",
+    "category": "classic",
+    "subcats": [
+      "dessert"
+    ],
+    "priceJPY": 900,
+    "descEn": "Layered mascarpone, matcha powder, azuki",
+    "descIt": "Mascarpone a strati, polvere di matcha, azuki",
+    "img": "images/matcha_tiramisu.png",
+    "type": "classic"
+  },
+  {
+    "id": 12,
+    "nameEn": "Black Sesame Crème",
+    "nameIt": "Crema di Sesamo Nero",
+    "category": "classic",
+    "subcats": [
+      "dessert"
+    ],
+    "priceJPY": 850,
+    "descEn": "Vegan black sesame pudding, kinako tuile",
+    "descIt": "Budino vegano al sesamo nero, tuile al kinako",
+    "img": "images/black_sesame_creme.png",
+    "type": "classic"
+  },
+  {
+    "id": 13,
+    "nameEn": "Maguro Nigiri",
+    "nameIt": "Maguro Nigiri",
+    "category": "classic",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 850,
+    "descEn": "Fresh bluefin tuna, classic shari",
+    "descIt": "Tonno pinna blu fresco, shari classico",
+    "img": "images/maguro_nigiri.png",
+    "type": "classic"
+  },
+  {
+    "id": 14,
+    "nameEn": "Sake Nigiri",
+    "nameIt": "Sake Nigiri",
+    "category": "classic",
+    "subcats": [
+      "nigiri"
+    ],
+    "priceJPY": 800,
+    "descEn": "Scottish salmon, lemon zest",
+    "descIt": "Salmone scozzese, scorza di limone",
+    "img": "images/sake_nigiri.png",
+    "type": "classic"
+  },
+  {
+    "id": 15,
+    "nameEn": "California Roll",
+    "nameIt": "California Roll",
+    "category": "classic",
+    "subcats": [
+      "maki"
+    ],
+    "priceJPY": 900,
+    "descEn": "Crab mix, avocado, cucumber, sesame",
+    "descIt": "Miscela di granchio, avocado, cetriolo, sesamo",
+    "img": "images/california_roll.png",
+    "type": "classic"
+  },
+  {
+    "id": 16,
+    "nameEn": "Yakitori Platter",
+    "nameIt": "Piatto Yakitori",
+    "category": "classic",
+    "subcats": [
+      "appetizer"
+    ],
+    "priceJPY": 1400,
+    "descEn": "Grilled chicken thigh, scallion, tare sauce",
+    "descIt": "Coscia di pollo alla griglia, cipollotto, salsa tare",
+    "img": "images/yakitori_platter.png",
+    "type": "classic"
+  },
+  {
+    "id": 17,
+    "nameEn": "Agedashi Tofu",
+    "nameIt": "Agedashi Tofu",
+    "category": "classic",
+    "subcats": [
+      "appetizer"
+    ],
+    "priceJPY": 680,
+    "descEn": "Silken tofu, tempura sauce, bonito, green onion",
+    "descIt": "Tofu setoso, salsa tempura, bonito, cipollotto",
+    "img": "images/agedashi_tofu.png",
+    "type": "classic"
+  },
+  {
+    "id": 18,
+    "nameEn": "Mochi Ice Cream",
+    "nameIt": "Gelato Mochi",
+    "category": "classic",
+    "subcats": [
+      "dessert"
+    ],
+    "priceJPY": 650,
+    "descEn": "Vanilla, strawberry, matcha trio",
+    "descIt": "Trio vaniglia, fragola, matcha",
+    "img": "images/mochi_ice_cream.png",
+    "type": "classic"
+  }
+]
